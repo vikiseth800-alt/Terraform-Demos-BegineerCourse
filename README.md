@@ -9,120 +9,117 @@ Follow the modules in order below to get the best learning experience.
 ## 📚 Course Structure
 
 ### Module 1 - IAC & Intro to Terraform ✅
-> All theory — no demo files for this module
 
-| # | Topic | Type |
-|---|-------|------|
-| 1 | Course overview and what you will build | Theory |
-| 2 | What is IAC | Theory |
-| 3 | Challenges with traditional IT infra | Theory |
-| 4 | Benefits of IAC | Theory |
-| 5 | Types of IAC tools | Theory |
-| 6 | Terraform vs other tools | Theory |
-| 7 | Why Terraform | Theory |
+| # | Topic |
+|---|-------|
+| 1 | Course overview and what you will build |
+| 2 | What is IAC |
+| 3 | Challenges with traditional IT infra |
+| 4 | Benefits of IAC |
+| 5 | Types of IAC tools |
+| 6 | Terraform vs other tools |
+| 7 | Why Terraform |
 
 ---
 
 ### Module 2 - Installation & Setup ✅
-> All screen recordings — no demo files for this module
 
-| # | Topic | Type |
-|---|-------|------|
-| 1 | Terraform Workflow - Write Plan Apply | Theory |
-| 2 | Installing Terraform on Mac | Screen Recording |
-| 3 | Installing Terraform on Windows | Screen Recording |
-| 4 | Installing Terraform on Linux | Screen Recording |
-| 5 | Setting up VS Code for Terraform | Screen Recording |
-| 6 | Verifying Installation | Screen Recording |
+| # | Topic |
+|---|-------|
+| 1 | Terraform Workflow - Write Plan Apply |
+| 2 | Installing Terraform on Mac |
+| 3 | Installing Terraform on Windows |
+| 4 | Installing Terraform on Linux |
+| 5 | Setting up VS Code for Terraform |
+| 6 | Verifying Installation |
 
 ---
 
 ### Module 3 - Terraform with AWS ✅
-> All screen recordings — no demo files for this module
 
-| # | Topic | Type |
-|---|-------|------|
-| 1 | Intro to Terraform with AWS | Theory |
-| 2 | Creating AWS Account | Screenshots |
-| 3 | Installing and Configuring AWS CLI | Screen Recording |
-| 4 | Setting up AWS Credentials | Screen Recording |
-| 5 | Understanding Terraform AWS Provider | Theory |
-| 6 | Your First Terraform Configuration | Theory + Screen Recording |
-| 7 | Terraform Init | Screen Recording |
-| 8 | Terraform Plan and Apply | Screen Recording |
-| 9 | Terraform Destroy | Screen Recording |
+| # | Topic |
+|---|-------|
+| 1 | Intro to Terraform with AWS |
+| 2 | Creating AWS Account |
+| 3 | Installing and Configuring AWS CLI |
+| 4 | Setting up AWS Credentials |
+| 5 | Understanding Terraform AWS Provider |
+| 6 | Your First Terraform Configuration |
+| 7 | Terraform Init |
+| 8 | Terraform Plan and Apply |
+| 9 | Terraform Destroy |
 
 ---
 
 ### Module 4 - HCL & Core Concepts 🔄
 📁 Demo folders: `File_Structure` · `ec2-demo` · `count-demo` · `for_each-demo` · `depends_on-demo`
 
-| # | Topic | Type |
-|---|-------|------|
-| 1 | Understanding HCL and file structure | Theory |
-| 2 | Terraform Data Types | Theory |
-| 3 | Resources - Theory | Theory |
-| 4 | Resources - Demo - Create EC2 | Demo |
-| 5 | Variables - Theory | Theory |
-| 6 | Variables - Demo | Demo |
-| 7 | Output values - Theory + Demo | Combined |
-| 8 | Local values - Theory + Demo | Combined |
-| 9 | Data sources - Theory only | Theory |
-| 10 | State file - Theory + Demo | Combined |
-| 11 | count - Theory | Theory |
-| 12 | count - Demo | Demo |
-| 13 | for_each - Theory | Theory |
-| 14 | for_each - Demo | Demo |
-| 15 | depends_on - Theory | Theory |
-| 16 | depends_on - Demo | Demo |
+| # | Topic | |
+|---|-------|-|
+| 1 | Understanding HCL and file structure | |
+| 2 | Terraform Data Types | |
+| 3 | Resources - Theory | |
+| 4 | Resources - Create EC2 | Demo |
+| 5 | Variables - Theory | |
+| 6 | Variables | Demo |
+| 7 | Output values | Demo |
+| 8 | Local values | Demo |
+| 9 | Data sources | |
+| 10 | State file | Demo |
+| 11 | count - Theory | |
+| 12 | count | Demo |
+| 13 | for_each - Theory | |
+| 14 | for_each | Demo |
+| 15 | depends_on - Theory | |
+| 16 | depends_on | Demo |
 
 ---
 
 ### Module 5 - State Management 🔄
 📁 Demo folders: `backend-demo` · `tfstate_ec2-demo` · `state-command-demo`
 
-| # | Topic | Type |
-|---|-------|------|
-| 1 | Local vs Remote State | Theory |
-| 2 | Remote State Demo - S3 backend | Demo |
-| 3 | State Locking - Theory | Theory |
-| 4 | State Locking Demo - DynamoDB | Demo |
-| 5 | State Commands - Theory | Theory |
-| 6 | State Commands - Demo | Demo |
+| # | Topic | |
+|---|-------|-|
+| 1 | Local vs Remote State | |
+| 2 | Remote State - S3 backend | Demo |
+| 3 | State Locking - Theory | |
+| 4 | State Locking - DynamoDB | Demo |
+| 5 | State Commands - Theory | |
+| 6 | State Commands | Demo |
 
 ---
 
 ### Module 6 - Terraform Modules ⏳
 📁 Demo folders: `Public-Module` · `custom-module-ec2` · `test-module`
 
-| # | Topic | Type |
-|---|-------|------|
-| 1 | What are modules - Theory | Theory |
-| 2 | Using public modules - Theory | Theory |
-| 3 | Public module Demo - S3 bucket | Demo |
-| 4 | Creating your own module with inputs and outputs - Theory | Theory |
-| 5 | Custom module Demo - EC2 | Demo |
+| # | Topic | |
+|---|-------|-|
+| 1 | What are modules | |
+| 2 | Using public modules | |
+| 3 | Public module - S3 bucket | Demo |
+| 4 | Creating your own module with inputs and outputs | |
+| 5 | Custom module - EC2 | Demo |
 
 ---
 
 ### Module 7 - Workspaces & Advanced Basics ⏳
 📁 Demo folders: `workspace-demo` · `import-demo`
 
-| # | Topic | Type |
-|---|-------|------|
-| 1 | What are workspaces and managing environments | Theory |
-| 2 | Workspace Demo - Create dev and prod | Demo |
-| 3 | Terraform Import - Theory | Theory |
-| 4 | Terraform Import - Demo | Demo |
+| # | Topic | |
+|---|-------|-|
+| 1 | What are workspaces and managing environments | |
+| 2 | Workspace - Create dev and prod | Demo |
+| 3 | Terraform Import - Theory | |
+| 4 | Terraform Import | Demo |
 
 ---
 
 ### Module 8 - Real World Mini Project ⏳
 📁 Demo folder: `terraform-aws-project`
 
-| # | Topic | Type |
-|---|-------|------|
-| 1 | Project overview and architecture diagram | Theory |
+| # | Topic | |
+|---|-------|-|
+| 1 | Project overview and architecture diagram | |
 | 2 | Create VPC | Demo |
 | 3 | Create Subnets | Demo |
 | 4 | Security Group + EC2 with depends_on | Demo |
